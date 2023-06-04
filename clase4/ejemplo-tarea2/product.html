@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>product</title>
+</head>
+
+<body>
+    <main>
+        <div class="display-container">
+            <section class="display">
+                <div id="visualizacion">
+                    <img class="display__picture" src="/images/product-shirt-black.jpg" alt="black shirt">
+                    <p class="display__description" id="jokeVisualization"></p>
+                </div>
+                <div class="btn-container">
+                    <div>
+                        <input class="btn__color" type="radio" id="colorBlack" name="color" checked>
+                        <label for="colorBlack">black</label>
+                    </div>
+                    <div>
+                        <input class="btn__color" type="radio" id="colorWhite" name="color">
+                        <label for="colorWhite">white</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1 id="title">black shirt</h1>
+                <p id="price">$20</p>
+                <p id="jokeVisual">Joke: <span id="renderJoke"></span></p>
+                <div class="container container--diferent container--display">
+                    <div class="container__text">
+                        <p id="randomJoke">
+
+                        </p>
+                    </div>
+                    <button id="aleatoriBtn" class="container__send">Get another joke!</button>
+                </div>
+            </section>
+
+        </div>
+        <section>
+            <h2 class="tittle">choose another product</h2>
+            <div class="product-container">
+                <div class="picture-container">
+
+                </div>
+                <div class="picture-container">
+
+                </div>
+                <div class="picture-container">
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script type="module" src="/js/product-page.js"></script>
+
+</html>

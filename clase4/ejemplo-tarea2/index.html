@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Dad-jokes</title>
+</head>
+
+<body>
+    <main class="Geneal-container">
+        <div class="container container__img--diferent">
+            <img class="container__img " src="/images/dad.jpeg" alt="imagen about men">
+        </div>
+        <div class="container container--diferent">
+            <div class="container__text">
+                <p id="randomJoke">
+
+                </p>
+            </div>
+            <button id="aleatoriBtn" class="container__send">Get another joke!</button>
+        </div>
+        <div id="jokeContainer" class="container container--modifier">
+            <form>
+
+                <input id="searchJoke" type="search" name="Dad-jokes" class="container__search-bar" required>
+                <button id="specificBtn" type="submit" value="search" class="container__submit">search</button>
+            </form>
+            <div class="container__paragraph">
+                <p id="jokeList" class=" container__joke">
+
+                </p>
+            </div>
+    </main>
+</body>
+<script type="module" defer src="/js/main.js"></script>
+
+</html>
